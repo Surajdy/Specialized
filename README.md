@@ -30,7 +30,7 @@ Payment Page with Card,UPI,Wallet and Cash on Delivery Options
 
 ## Screenshots
 
-![Screenshot ](https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website)
+![Screenshot ]([https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website](https://github.com/Surajdy/busy-industry-7181/blob/main/Readme%20img/Screenshot%202023-12-03%20212558.png)https://github.com/Surajdy/busy-industry-7181/blob/main/Readme%20img/Screenshot%202023-12-03%20212558.png)
 
 ## Collaborator name :
 
