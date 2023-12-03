@@ -1,14 +1,15 @@
-# busy-industry-7181
+# Busy-industry-7181
+## Specialized [Ecommerce Bike site]
+This is our project for Unit-5 Construct week at Masai Shcool. Our main objective is to complete all main functionality of this e-commerce bikes website, such as Login/Signup, Add/Buy and filter the product. We have completed this project in 5 days.
 
-This is our project for Unit-5 Construct week at Masai Shcool. Our main objective is to complete all main functionality of this bike buying website, such as Login/Signup, Add/Buy and filter the product. We have completed this project in 5 days.
-
-# Credits
+## Spotify
+## Credits
 - Images : [specialized.com](https://www.specialized.com/)
 - Content : [behance.com](https://[www.behance.com](https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website)/)
 - Icons : [Font Awesome](https://fontawesome.com/)
 
 
-# Tech Stack
+## Tech Stack
 - HTML
 - CSS
 - JAVASCRIPT
@@ -27,8 +28,11 @@ Add to cart , option to buy products.
 
 Payment Page with Card,UPI,Wallet and Cash on Delivery Options
 
+## Screenshots
 
-# Collaborator name :
+![Screenshot ](https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website)
+
+## Collaborator name :
 
 1> Suraj Yengalwar
 
