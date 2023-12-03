@@ -4,306 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./homepage.css"> -->
+    <link rel="stylesheet" href="./homepage.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 </head>
-<style>
-    /* CSS Reset */
-body {
-    margin: 0;
-    padding: 0;
-    padding: 10% 10% 10% 10%;
-    background-color: #242424;
-  }
-  
-  /* Navbar Styling */
-  .nav {
-    height: 60px;
-    background-color:#242424;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
-  }
-  
-  .nav ul {
-    
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0;
-    align-items: center;
-  }
-  
-  .nav li {
-    
-    display: inline;
-  }
-   #logo{
-   font-size: small;
-   height: 10%;
-   width: 10px;
-
-  }
-  
-  .nav a {
-    font-size: 13px;
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
-  }
-  .logo {
-        width: 150px;
-        height: auto; 
-    }
-  
-  
-  #search{
-    border-radius: 40px;
-    width: 200px;
-    height: 30px;
-    
-    background-color: transparent;
-    border: 1px solid white; 
-  }
-  /* nexttonav */
-   .nexttonav{
-    background-color:#242424;
-    align-items: center;
-    display: flex;
-    justify-content:end;
-    gap: 30px;
-   }
-   .nexttonav a{
-    
-    color:grey;
-    
-    align-items: center;
-   }
-
-   /* best seller */
-   #bestseller{
-    padding: 0% 10% 0% 10%;
-   }
-   #bestseller h1{
-    color: white;
-    margin-bottom: 20px;
-   }
-   #bestseller .bike{
-    display: flex;
-    justify-content: space-evenly;
-    
-    flex-direction: row;
-    gap: 30px;
-
-   }
-   #bestseller .bike div{
-    background-color: white;
-    border-radius: 10px;
-    padding:15px ;
-    box-shadow: 0 0 15px  #785515;
-   }
-   #bestseller .bike div img{
-    width: 100%;
-            height: auto;
-            border-radius: 10px;
-   }
-   #bestseller .bike h2{
-    font-size: 20px;
-    font-style: bold;
-   }
-   #bestseller button{
-    height: 40px;
-    width: 140px;
-    border-radius: 5px;
-    margin-top: 20px;
-    border: 2px solid #785515;
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-   }
-
-   /* brain technology */
-   
-   #brain_technology h1{
-    padding: 0% 10% 0% 10%;
-    color: white;
-    padding-top: 40px;
-    margin-bottom: 40px;
-   }
-  
-   #brain_technology img{
-    box-shadow: 0 0 15px  #785515; 
-   border-radius: 15px;
-    width: 100%;
-    
-   }
-
-   /* BIKE DISCOUNT */
-   #bike_discount{
-    padding: 0% 10% 0% 10%;
-   }
-   #bike_discount h1{
-    color: white;
-    padding-top: 40px;
-    margin-bottom: 30px;
-   }
-   #bike_discount .bike{
-    display: flex;
-    justify-content: space-evenly;
-    
-    flex-direction: row;
-    gap: 30px;
-
-   }
-   #bike_discount .bike div{
-    background-color: white;
-    border-radius: 10px;
-    padding:15px ;
-    box-shadow: 0 0 15px  #785515;
-   }
-   #bike_discount .bike div img{
-    width: 100%;
-            height: auto;
-            border-radius: 10px;
-   }
-   #bike_discount .bike h2{
-    font-size: 20px;
-    font-style: bold;
-   }
-   #bike_discount button{
-    height: 40px;
-    width: 140px;
-    border-radius: 5px;
-    margin-top: 30px;
-    border: 2px solid #785515;
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-    margin-bottom: 40px;
-   }
-   /* know more about us */
-   #know_more_about_us h1{
-   padding: 0% 10% 0% 10%;
-    color: white;
-    padding-top: 40px;
-    margin-bottom: 40px;
-   }
-
-   #know_more_about_us .first img{
-    box-shadow: 0 0 15px  #785515; 
-   border-radius: 15px;
-   width: 100%;
-   
-   }
-
-   #know_more_about_us .second{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 25px; 
-     padding-bottom: 40px;
-   }
-   #know_more_about_us .second img{
-    box-shadow: 0 0 15px  #785515; 
-    border-radius: 15px;
-    width: 48%;
-    
-    
-   }
-
-   /* footer */
-  #footer{
-    padding-top: 40px;
-    
-    color: white;
-  }
-   #footer div{
-        display: flex;
-
-   }
-   .footer1{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-   }
-   .footer1 .icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    color: white;
-   }
-   .footer2{
-  
-    justify-content: center;
-    font-weight: 200;
-    font-size: 13px;
-    
-    }
-   .footer2 header{
-    font-weight: bold;
-   }
-   .footer-ele1, .footer-ele2, .footer-ele3, .footer-ele4, .footer-ele5,.footer-ele6,.footer-ele7{
-
-  color: white;
- 
-  
-}
-.footer-ele1 ul li, .footer-ele2 ul li, .footer-ele3 ul li, .footer-ele4 ul li, .footer-ele5 ul li,.footer-ele6 ul li ,.footer-ele7 ul li{
-    display: inline;
- 
-} 
-.footer-ele1 ul li:hover, .footer-ele2 ul li:hover, .footer-ele3 ul li:hover, .footer-ele4 ul li:hover, .footer-ele5 ul li:hover,.footer-ele6 ul li:hover ,.footer-ele7 ul li:hover{
-  color: grey;
-  
-}
-.footer3{
-    display: flex;
-    flex-direction: column;
-    width: 200 px;
-    color: white;
-}
-.footer3 #join{
-    margin-top: 20px;
-    border: 2px solid grey;
-    border-radius: 2px;
-    align-items: center;
-    width: auto;
-    height: 30px;
-    color: gray;
-    background-color: transparent;
-}
-#footer p{
-    text-align: center;
-}
-
-/* slider */
-.slider-container {
-    position: relative;
-    display: flex;
-    width: 1000px;
-    padding: 0% 10% 0% 10%;
-    overflow: hidden;
-    border: 5px solid white;
-}
-
-
-
-.slide {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-
-
-
-</style>
 <body>
     <!-- navbar section -->
     <div class="nav">
@@ -329,8 +32,8 @@ body {
         <ul>
             <li><a><i class="fa-regular fa-heart"></i></a></li>
             <li><a ><i class="fa-solid fa-arrows-rotate"></i></i></a></li>
-            <li><a ><i class="fas fa-shopping-cart"></i></a></li>
-            <li><a ><i class="fa-regular fa-circle-user"></i></i></a></li>
+            <li><a  href="./cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a  href="./login.html"><i class="fa-regular fa-circle-user"></i></i></a></li>
         </ul>
         
         
@@ -345,17 +48,44 @@ body {
          
       </div>
       <div class="slider-container">
+        <div class="slide" style="background-image: url('https://www.worldtravelguide.net/wp-content/uploads/2016/06/shu-Gen-Cyclist_158967626-1440x823-1.jpg');">
+                <h1>
+                    THE POWER TO RIDE MORE TRAILS
+                </h1>
+                <P>It's not just a new bike, it,s you ,only faster</P>
+                <button class="catalogue">CATALOGUE</button>
+            </div>
         
-            <img class="slide" src="images/sliderimg1.png" alt="Slide 1">
-            <img class="slide" src="images/sliderimg1.png" alt="Slide 2">
-            <img class="slide" src="images/sliderimg2.png" alt="Slide 3">
-            <img class="slide" src="images/sliderimg3.png" alt="Slide 4">
-            <img class="slide" src="images/sliderimg1.png" alt="Slide 2">
-            <img class="slide" src="images/sliderimg2.png" alt="Slide 3">
-            <img class="slide" src="images/sliderimg3.png" alt="Slide 4">
-            <!-- Add more slides as needed -->
-       
-        
+            <div class="slide" style="background-image: url('  https://static.toiimg.com/thumb/msid-66271424,width-1280,height-720,resizemode-4/66271424.jpg');">
+                <h1>
+                    THE POWER TO RIDE MORE TRAILS
+                </h1>
+                <P>It's not just a new bike, it,s you ,only faster</P>
+                <button class="catalogue">CATALOGUE</button>
+            </div>
+            <div class="slide" style="background-image:url('https://cdn.pixabay.com/photo/2016/08/16/18/24/bike-1598670_1280.jpg');">
+                <h1>
+                    THE POWER TO RIDE MORE TRAILS
+                </h1>
+                <P>It's not just a new bike, it,s you ,only faster</P>
+                <button class="catalogue">CATALOGUE</button>
+            </div>
+            <div class="slide" style="background-image:url('https://cdn.pixabay.com/photo/2018/03/07/16/46/wheel-3206453_1280.jpg');">
+                <h1>
+                    THE POWER TO RIDE MORE TRAILS
+                </h1>
+                <P>It's not just a new bike, it,s you ,only faster</P>
+                <button class="catalogue">CATALOGUE</button>
+            </div>
+            <div class="slide" style="background-image:url('https://cdn.pixabay.com/photo/2016/08/16/18/24/bike-1598670_1280.jpg');">
+               
+                <h1>
+                    THE POWER TO RIDE MORE TRAILS
+                </h1>
+                <P>It's not just a new bike, it,s you ,only faster</P>
+                <button class="catalogue">CATALOGUE</button>
+            </div>
+
           </div>
         
     </div>
@@ -364,29 +94,28 @@ body {
 
             <div class="bike">
                 <div>
-                    <img src="images/bikeimg1.png" alt="">
+                    <img src="https://assets.specialized.com/i/specialized/95223-30_LEVO-EXPERT-CARBON-OBSD-TPE_HERO?$scom-plp-product-image$&fmt=auto" alt="">
                     <h2>S-WORKS SHIV TT DISC</h2>
-                    <h3>$12,499.00</h3>
+                    <h3>$10,499.00</h3>
                     <a><i class="fa-regular fa-heart"></i></a>
                     <a ><i class="fa-solid fa-arrows-rotate"></i></a>
                 </div>
                 <div>
-                    <img src="images/bikeimg1.png" alt="">
-                    <h2>S-WORKS SHIV TT DISC</h2>
-                    <h3>$12,499.00</h3>
+                    <img src="https://assets.specialized.com/i/specialized/98021-55_KENEVO-SL-COMP-CARBON-29-BLZ-BLK_HERO?$scom-plp-product-image$&fmt=auto" alt="">
+                    <h2>Turbo KENEVO SL Comp</h2>
+                    <h3>$14,099.00</h3>
                     <a><i class="fa-regular fa-heart"></i></a>
                     <a ><i class="fa-solid fa-arrows-rotate"></i></a>
                 </div>
                 <div>
-                    <img src="images/bikeimg1.png" alt="">
-                    <h2>S-WORKS SHIV TT DISC</h2>
-                    <h3>$12,499.00</h3>
+                    <img src="https://assets.specialized.com/i/specialized/98021-36_KENEVO-SL-EXPERT-CARBON-29-BRSYYEL-BLK_HERO?$scom-plp-product-image$&fmt=auto" alt="">
+                    <h2>Crux expert Dual Susp IA4</h2>
+                    <h3>$18,299.00</h3>
                     <a><i class="fa-regular fa-heart"></i></a>
                     <a ><i class="fa-solid fa-arrows-rotate"></i></a>
                 </div>
             </div>
-            
-            <button >CATALOGUE</button>
+            <button class="catalogue">CATALOGUE</button>
             
       </div>
       <div id ="brain_technology">
@@ -402,29 +131,32 @@ body {
 
         <div class="bike">
             <div>
-                <img src="images/bikeimg1.png" alt="">
+                <img src="https://assets.specialized.com/i/specialized/95222-70_LEVO-ALLOY-BLK-LTSIL-BLK_HERO?$scom-plp-product-image$&fmt=auto" alt="">
                 <h2>S-WORKS SHIV TT DISC</h2>
-                <h3>$12,499.00</h3>
+                <h4>$12 499.00 <i class="fa-solid fa-tag"></i></h4>
+                <h3>$8,399.00</h3>
+               
                 <a><i class="fa-regular fa-heart"></i></a>
                 <a ><i class="fa-solid fa-arrows-rotate"></i></a>
             </div>
             <div>
-                <img src="images/bikeimg1.png" alt="">
-                <h2>S-WORKS SHIV TT DISC</h2>
-                <h3>$12,499.00</h3>
+                <img src="https://assets.specialized.com/i/specialized/98122-52_CREO-SL-E5-COMP-CSTUMBR-CLY_HERO?$scom-plp-product-image$&fmt=auto" alt="">
+                <h2>Turbo Comobo 3.0 IGH</h2>
+                <h4>$19,000.00 <i class="fa-solid fa-tag"></i></h4>
+                <h3>$10,499.00</h3>
                 <a><i class="fa-regular fa-heart"></i></a>
                 <a ><i class="fa-solid fa-arrows-rotate"></i></a>
             </div>
             <div>
-                <img src="images/bikeimg1.png" alt="">
-                <h2>S-WORKS SHIV TT DISC</h2>
-                <h3>$12,499.00</h3>
+                <img src="https://assets.specialized.com/i/specialized/93922-52_VADO-SL-40-EQ-WHTSGE-BLKREFL_HERO?$scom-plp-product-image$&fmt=auto" alt="">
+                <h2>Turbo Vadaao SL 5.0 EQ</h2>
+                <h4>$15,499.00 <i class="fa-solid fa-tag"></i></h4>
+                <h3>$7,499.00</h3>
                 <a><i class="fa-regular fa-heart"></i></a>
                 <a ><i class="fa-solid fa-arrows-rotate"></i></a>
             </div>
         </div>
-          
-        <button >CATALOGUE</button>
+        <button class="catalogue">CATALOGUE</button>
       </div>
       <div id="know_more_about_us">
         <h1>KNOW MORE ABOUT US</h1>
@@ -436,7 +168,33 @@ body {
             <img src="images/know more 3.png" alt="img">
         </div>
       </div>
-      <hr>
+    
+      <div id=question_container>
+        <div class="container">
+            <div class="top">
+                <div>
+                    <h1>15000</h1>
+                    <p>buyers per month</p>
+                </div>
+                <div>
+                    <h1>700</h1>
+                    <p>shops in the world</p>
+                </div>
+                <div>
+                    <h1>12</h1>
+                    <p>years warranty</p>
+                </div>
+            </div>
+            <hr>
+            <div class="bottom">
+                <h1>HAVE ANY QUESTION?</h1>
+                <P>We'll help you find the answer or connet with an advisor.</P>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="number" id="contact" name="Number" placeholder="Phone Number">
+                <button class="contact">CONTACT US</button>
+            </div>
+        </div>
+      </div>
       <div id="footer">
         <div>
             <div class="footer1">
@@ -531,42 +289,4 @@ body {
       </div>
 </body>
 </html>
-<script>
-    let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
-
-function showSlide(index) {
-        slides.forEach((slide, i) => {
-            if (i === index) {
-                slide.style.display = 'block';
-                slide.style.transition = 'transform 0.7s ease-in-out';
-                slide.style.transform = 'translateZ(100%)'; // Move the slide to bottom initially
-                setTimeout(() => {
-                    slide.style.transform = 'translateY(0)'; // Move the slide to its original position
-                }, 100); // Adjust the delay as needed
-            } else {
-                slide.style.display = 'none';
-            }
-        });
-    }
-
-slides.forEach((slide, index) => {
-    slide.addEventListener('click', (event) => {
-        const clickX = event.clientX - slide.getBoundingClientRect().left;
-        const halfWidth = slide.clientWidth / 2;
-
-        if (clickX <= halfWidth) {
-            // Clicked on the left side of the image
-            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        } else {
-            // Clicked on the right side of the image
-            currentIndex = (currentIndex + 1) % slides.length;
-        }
-
-        showSlide(currentIndex);
-    });
-});
-
-// Show the initial slide
-showSlide(currentIndex);
-</script>
+<script src="./homepage.js"></script>
