@@ -48,16 +48,13 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 <img width="377" alt="Home page" src="./images/Jatin1.png">
 
- - ## <span style="color:blue"> Login Page</span>
-
- <img width="391" alt="zms footer" src="./IMAGES/L1.png">
 
 
 - ## <span style="color:blue"> Product Pages</span>
 
-<img width="400" alt="zms 1" src="./IMAGES/P1.png">
-<img width="400" alt="zms 1" src="./IMAGES/P2.png">
-<img width="400" alt="zms 1" src="./IMAGES/P3.png">
+<img width="400" alt="zms 1" src="./images/Jatin2.png">
+<img width="400" alt="zms 1" src="./images/Jatin3.png">
+
 
 - ## <span style="color:blue"> Cart Page</span>
 
