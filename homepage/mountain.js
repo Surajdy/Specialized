@@ -53,7 +53,9 @@ function displayData(data) {
         let button = document.createElement("button");
         button.setAttribute("class", "addItem");
         button.innerHTML = "🛒";
-        button.addEventListener("click", () => toggleWishList(item, button));
+        button.addEventListener("click", () =>{
+            window.location.href = 'product_detail.html';
+        })
 
         container.appendChild(image);
         titlePriceDiv.append(title, price, button);
