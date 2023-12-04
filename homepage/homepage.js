@@ -46,7 +46,7 @@ const catalogueButton = document.querySelectorAll(".catalogue");
 
 catalogueButton.forEach(button => {
     button.addEventListener('click', function() {
-        window.location.href = 'catalogue.html'; // Redirect to cart.html
+        window.location.href = './Item Page/mountain.html'; // Redirect to cart.html
     });
 });
 
