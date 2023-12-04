@@ -1,13 +1,13 @@
 # cut-coach-1829
-This is unit 4 final project. we are devolping cycle webiste https://656ddf26cf0cf5626c49eb74--imaginative-medovik-55da27.netlify.app/.
+This is unit 5 final project. we are devolping cycle webiste https://656ddf26cf0cf5626c49eb74--imaginative-medovik-55da27.netlify.app/.
 # Specialized
 
-# <span style="color:red"> <i class="fa-solid fa-italic">Webisite of [Specialized] WEBSITE</i></span>
+
 
 # <span style="color:red"> Welcome Here!</span>
 
 Hello Readers,<br>
-It was during the final week which is depicted as the construct week. We have done this project with group of 4 members and build cycle wesbite <br> This Project is our construct week project in Unit-5 an we give a name to our project 
+It was during the final week which is depicted as the construct week. We have done this project with group of 4 members and build cycle wesbite .This Project is our construct week project in Unit-5 an we give a name to our project 
 
 <br> I hope you will enjoy the reading….
 
@@ -46,7 +46,7 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Home Page </span>
 
-<img width="377" alt="Home page" src="./IMAGES/HomePage.png">
+<img width="377" alt="Home page" src="./images/Jatin1.png.png">
 
  - ## <span style="color:blue"> Login Page</span>
 
