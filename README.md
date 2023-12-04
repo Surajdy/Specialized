@@ -46,7 +46,7 @@ This entire journey of making the project was awesome. We have learned lots of t
 
 - ## <span style="color:blue"> Home Page </span>
 
-<img width="377" alt="Home page" src="./images/Jatin1.png.png">
+<img width="377" alt="Home page" src="./images/Jatin1.png">
 
  - ## <span style="color:blue"> Login Page</span>
 
