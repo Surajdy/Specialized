@@ -56,14 +56,12 @@ This entire journey of making the project was awesome. We have learned lots of t
 <img width="400" alt="zms 1" src="./images/Jatin3.png">
 
 
-- ## <span style="color:blue"> Cart Page</span>
+- ## <span style="color:blue"> Product Details Page</span>
 
- <img width="391" alt="zms footer" src="./IMAGES/C1.png">
+ <img width="391" alt="zms footer" src="./images/jatin4.png">
+  <img width="391" alt="zms footer" src="./images/jatin5.png">
 
 
-- ## <span style="color:blue"> Payment Page</span>
-
- <img width="391" alt="zms footer" src="./IMAGES/Pay1.png">
  
 
 
