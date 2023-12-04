@@ -1,43 +1,98 @@
-# Busy-industry-7181
-## Specialized [Ecommerce Bike site]
-This is our project for Unit-5 Construct week at Masai Shcool. Our main objective is to complete all main functionality of this e-commerce bikes website, such as Login/Signup, Add/Buy and filter the product. We have completed this project in 5 days.
-
-## Spotify
-## Credits
-- Images : [specialized.com](https://www.specialized.com/)
-- Content : [behance.com](https://[www.behance.com](https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website)/)
-- Icons : [Font Awesome](https://fontawesome.com/)
+# busy-industry-7181
+This is unit 5 final project. we are devolping cycle webiste https://656ddf26cf0cf5626c49eb74--imaginative-medovik-55da27.netlify.app/.
+# Specialized
 
 
-## Tech Stack
-- HTML
-- CSS
-- JAVASCRIPT
 
-## Features
+# <span style="color:red"> Welcome Here!</span>
 
-Login / Sign Up
+Hello Readers,<br>
+It was during the final week which is depicted as the construct week. We have done this project with group of 4 members and build cycle wesbite .This Project is our construct week project in Unit-5 an we give a name to our project 
 
-Product page for different categories.
+<br> I hope you will enjoy the reading….
 
-Detailed product preview page.
 
-Review to the product/Differenct Sectional View of the product
+ 
 
-Add to cart , option to buy products.
+# <span style="color:red"> Tech Stack Used: </span>
 
-Payment Page with Card,UPI,Wallet and Cash on Delivery Options
+We have used Html5, CSS, Advance JavaScript,Local Storage for building this Project. We also used tools like GitHub for collaboration of our project, Slack & Zoom as means of a communication channel.
 
-## Screenshots
 
-![Screenshot ]([https://www.behance.net/gallery/163145071/Specialized-E-commerce-redesign-UXUI-design?tracking_source=search_projects%7Ce+commerce+website](https://github.com/Surajdy/busy-industry-7181/blob/main/Readme%20img/Screenshot%202023-12-03%20212558.png)https://github.com/Surajdy/busy-industry-7181/blob/main/Readme%20img/Screenshot%202023-12-03%20212558.png)
+# <span style="color:red"> Details of Tech stack used: </span>
 
-## Collaborator name :
+<b>HTML5:</b>
 
-1> Suraj Yengalwar
+we have used to build the basic structure of the website. All headings, Paragraphs, links, forms, etc. were structured by HTML.
 
-2> Ashutosh kumar
+ <b>CSS:</b>
 
-3> Rishik Sinha
+We have used to add styling to the website. We used Advance CSS for Popup Modal window for login/Sign up, Payment, and all other styling.
 
-4> Jatin 
+ <b> Advance JavaScript:</b>
+
+We have used to add logical functionalities to the web pages like the on Click function. We have added all the functionalities.
+
+<b> Local storage:</b>
+
+We have used local-storage as a database for storing users’ data, products details, and cart details.
+
+Let us share our experience,<br>
+This entire journey of making the project was awesome. We have learned lots of things by applying to the real website and it gave us a lot of confidence. there were some more functionalities that could have been done, yeah the time didn’t permit us to go further. But we will surely improve it during the course of time in future .
+
+## So jurney started from here!
+
+### Snapshots of our project :- 
+
+- ## <span style="color:blue"> Home Page </span>
+
+<img width="377" alt="Home page" src="./images/Jatin1.png">
+
+
+
+- ## <span style="color:blue"> Product Pages</span>
+
+<img width="400" alt="zms 1" src="./images/Jatin2.png">
+<img width="400" alt="zms 1" src="./images/Jatin3.png">
+
+
+- ## <span style="color:blue"> Product Details Page</span>
+
+ <img width="391" alt="zms footer" src="./images/jatin4.png">
+  <img width="391" alt="zms footer" src="./images/jatin5.png">
+
+
+ 
+
+
+ 
+<br>
+ <hr>
+
+ <br>
+
+# <span style="color:red">Our Journey: </span>
+As we are all new and never work on a project so our first day gone in discussion about how we start and who did which work, In evening finally we decide distribute our work.
+On the second day we start with our morning scrum and decide the deadline to complete the whole project and start working on it, the In evening stand-up we discussed our challenges and problem and try to resolve them.
+2 days we have the same routine and finally on the fourth day our given task is ready but when we merge the all parts the main problem came like many classes and ids are same due to that the structure of all products was very bad but our Team take it as a challenge and change and put comments on code in just one and half day.
+on the seventh day again we merge all our code and finally, we did it, There were some changes that need to be done and we all did it and finally, we record our presentation and Submit.
+<br>
+
+
+# <span style="color:rgb(255, 174, 0)">Conclusion: </span>
+We are very thankful for the support of my teammates and instructor for the completion of project in due time. We will looks forward to add some feature and functionality which we left in this project for future expensions.
+
+
+# <span style="color:rgb(255, 170, 0)"> Thank Your For Reading </span>
+
+
+## <span style="color:rgb(255, 200, 0)"> Team Members: </span>
+
+- ## Jatin 
+
+- ## Rishik 
+
+- ## Suraj 
+
+- ## Ashutosh 
+
