@@ -166,5 +166,14 @@ function updatedom(data){
                 let category=document.getElementById("category")
                 category.innerText=`Category:- ${data.category}`
             }
-
+            let abc = document.querySelector('.abc');
+            abc.addEventListener("click", () => {
+                // Redirect to the "mountain.html" file
+                window.location.href = 'mountain.html';
+            });
+            let xyz = document.querySelector('.xyz');
+            xyz.addEventListener("click", () => {
+                // Redirect to the "mountain.html" file
+                window.location.href = 'payment.html';
+            });
     // console.log(id)
