@@ -1,0 +1,397 @@
+
+   
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0% 10% 10% 10%;
+    background-color: #242424;
+  }
+  
+  /* Navbar Styling */
+  .nav {
+    height: 60px;
+    background-color:#242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .nav ul {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    align-items: center;
+  }
+  
+  .nav li {
+    
+    display: inline;
+  }
+   #logo{
+   font-size: small;
+   height: 10%;
+   width: 10px;
+
+  }
+  
+  .nav a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  .logo {
+        width: 150px;
+        height: auto; 
+    }
+  
+  
+  #search{
+    border-radius: 40px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white; 
+  }
+  /* nexttonav */
+   .nexttonav{
+    background-color:#242424;
+    align-items: center;
+    display: flex;
+    justify-content:end;
+    gap: 30px;
+   }
+   .nexttonav a{
+    
+    color:grey;
+    
+    align-items: center;
+   }
+
+   /* best seller */
+   #bestseller{
+    padding: 0% 10% 0% 10%;
+   }
+   #bestseller h1{
+    color: white;
+    margin-bottom: 20px;
+   }
+   #bestseller .bike{
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    gap: 30px;
+
+   }
+   #bestseller .bike div{
+    background-color: white;
+    border-radius: 10px;
+    padding:15px ;
+    box-shadow: 0 0 15px  #785515;
+   }
+   #bestseller .bike div img{
+    width: 100%;
+            height: auto;
+            border-radius: 10px;
+   }
+   #bestseller .bike h2{
+    font-size: 20px;
+    font-style: bold;
+   }
+   #bestseller button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #785515;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+   }
+   #bestseller button:hover{
+    box-shadow: 0 0 50px  #785515; 
+   }
+
+   /* brain technology */
+   
+   #brain_technology h1{
+    padding: 0% 10% 0% 10%;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 40px;
+   }
+  
+   #brain_technology img{
+    box-shadow: 0 0 15px  #785515; 
+   border-radius: 15px;
+    width: 100%;
+    
+   }
+
+   /* BIKE DISCOUNT */
+   #bike_discount{
+    padding: 0% 10% 0% 10%;
+   }
+   #bike_discount h1{
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 30px;
+   }
+   #bike_discount .bike{
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    gap: 30px;
+
+   }
+   #bike_discount .bike div{
+    background-color: white;
+    border-radius: 10px;
+    padding:15px ;
+    box-shadow: 0 0 15px  #785515;
+   }
+   #bike_discount .bike div img{
+    width: 100%;
+            height: auto;
+            border-radius: 10px;
+   }
+   #bike_discount .bike h2{
+    font-size: 20px;
+    font-style: bold;
+   }
+   #bike_discount .bike h4{
+    text-decoration:line-through;
+    color: #888;
+   }
+   
+   #bike_discount button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 2px solid #785515;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+   }
+   #bike_discount button:hover{
+    box-shadow: 0 0 50px  #785515; 
+   }
+   /* know more about us */
+   #know_more_about_us h1{
+   padding: 0% 10% 0% 10%;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 40px;
+   }
+
+   #know_more_about_us .first img{
+    box-shadow: 0 0 15px  #785515; 
+   border-radius: 15px;
+   width: 100%;
+   
+   }
+
+   #know_more_about_us .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px; 
+     padding-bottom: 40px;
+   }
+   #know_more_about_us .second img{
+    box-shadow: 0 0 15px  #785515; 
+    border-radius: 15px;
+    width: 48%;
+    
+    
+   }
+
+/* question_container */
+#question_container{
+    background-image: url("https://www.worldtravelguide.net/wp-content/uploads/2016/06/shu-Gen-Cyclist_158967626-1440x823-1.jpg"); 
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat;
+    box-shadow: 0 0 15px  #785515; 
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+#question_container .container{
+    background-color:rgba(0, 0, 0, 0.5);;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+   
+}
+#question_container .container .top{
+    color: white;
+    width: 60%;
+   display: flex;
+   flex-direction: row;
+   gap: 10%;
+   justify-content: start;
+}
+#question_container .container .bottom {
+    color: white;
+    width: 40%;
+   display: flex;
+   flex-direction: column;
+
+}
+#question_container .container .bottom #name ,#question_container .container .bottom #contact {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    
+}
+#question_container .container .bottom button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 2px solid #785515;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    
+}
+#question_container .container .bottom #name:hover{
+    box-shadow: 0 0 50px white; 
+} 
+#question_container .container .bottom #contact:hover{
+    box-shadow: 0 0 50px white; 
+} 
+#question_container .container .bottom button:hover{
+    box-shadow: 0 0 50px  #785515; 
+}
+   /* footer */
+  #footer{
+    padding-top: 40px;
+    
+    color: white;
+  }
+   #footer div{
+        display: flex;
+
+   }
+   .footer1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .footer1 .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+   }
+   .footer2{
+  
+    justify-content: center;
+    font-weight: 200;
+    font-size: 13px;
+    
+    }
+   .footer2 header{
+    font-weight: bold;
+   }
+   .footer-ele1, .footer-ele2, .footer-ele3, .footer-ele4, .footer-ele5,.footer-ele6,.footer-ele7{
+
+  color: white;
+ 
+  
+}
+.footer-ele1 ul li, .footer-ele2 ul li, .footer-ele3 ul li, .footer-ele4 ul li, .footer-ele5 ul li,.footer-ele6 ul li ,.footer-ele7 ul li{
+    display: inline;
+ 
+} 
+.footer-ele1 ul li:hover, .footer-ele2 ul li:hover, .footer-ele3 ul li:hover, .footer-ele4 ul li:hover, .footer-ele5 ul li:hover,.footer-ele6 ul li:hover ,.footer-ele7 ul li:hover{
+  color: grey;
+  
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    width: 200 px;
+    color: white;
+}
+.footer3 #join{
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    color: gray;
+    background-color: transparent;
+}
+#footer p{
+    text-align: center;
+}
+
+/* slider */
+.slider-container {
+    background-image: url('https://c1.wallpaperflare.com/preview/743/666/502/blue-sky-riding-highway-bike.jpg');
+    position: relative;
+    display: flex;
+   
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+.slide {
+    
+    width: 100%;
+    height: 500px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.6s ease-in-out;
+    color: white;
+    box-shadow: 0 0 50px  #785515; 
+   
+}
+.slide h1 {
+    padding-top: 20%;
+    width: 50%;
+
+}
+.slide p{
+    
+    width: 50%;
+
+}
+.slide button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 3px solid #785515;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.slide button:hover{
+    box-shadow: 0 0 50px  #785515; 
+}
