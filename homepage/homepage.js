@@ -78,3 +78,9 @@ function storeContactData() {
 // Get the contact button and attach a click event listener
 const contactButton = document.querySelector('.contact');
 contactButton.addEventListener('click', storeContactData);
+
+let abc = document.querySelector('.abc');
+abc.addEventListener("click", () => {
+    // Redirect to the "mountain.html" file
+    window.location.href = 'mountain.html';
+});
