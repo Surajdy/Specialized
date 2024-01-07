@@ -67,13 +67,7 @@ This entire journey of making the project was awesome. We have learned lots of t
 
  <br>
  
-# <span style="color:red">Team Members: </span>
-Suraj
-Abhishek
-Affan 
-Ajay
-Ashwek
-<br>
+
 
 
 # <span style="color:red">Our Journey: </span>
