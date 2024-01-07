@@ -61,15 +61,20 @@ This entire journey of making the project was awesome. We have learned lots of t
  <img width="391" alt="zms footer" src="./images/jatin4.png">
   <img width="391" alt="zms footer" src="./images/jatin5.png">
 
-
- 
-
-
  
 <br>
  <hr>
 
  <br>
+ 
+# <span style="color:red">Team Members: </span>
+Suraj
+Abhishek
+Affan 
+Ajay
+Ashwek
+<br>
+
 
 # <span style="color:red">Our Journey: </span>
 As we are all new and never work on a project so our first day gone in discussion about how we start and who did which work, In evening finally we decide distribute our work.
